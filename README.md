@@ -1,2 +1,4 @@
 # numbergame
-Number game using python 
+Number game<br> using python 
+<hr>
+author: <b>PRIYA RANI</b>
