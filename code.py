@@ -9,7 +9,11 @@ print("Guess the number between 1 and 100:")
 while guess != n:
     guess = int(input("Enter your guess: "))
     attempts += 1
-    if guess < n:
+    if guess >100:
+        print("please enter number between limits")
+    elif guess <1:
+        print("please enter number between limits")
+    elif guess < n:
         print("Too low!")
     elif guess > n:
         print("Too high!")
